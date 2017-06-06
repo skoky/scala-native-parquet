@@ -4,8 +4,8 @@ Run docker
 
 Inside the docker:    
 
-    cp /p
-    sbt run
+  cp /p
+  sbt run
 
 or
 
