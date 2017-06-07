@@ -11,3 +11,9 @@ or
 
     sbt compile
     ./target/scala-2.11/p-out
+
+Supporting info:
+
+https://parquet.apache.org/documentation/latest/
+
+https://github.com/twitter/scrooge
