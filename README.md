@@ -31,6 +31,10 @@ https://github.com/twitter/scrooge (info: unable to publish from source)
 
 https://github.com/apache/parquet-cpp
 
-### Vanilla scala JVM implementation reference:
+### Vanilla Scala JVM implementation reference:
 
 https://github.com/jmd1011/parquet-readers
+
+### Vanilla Go implementation of Apache CPP Parquet:
+
+https://github.com/zenixls2/goparquet
