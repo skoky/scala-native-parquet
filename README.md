@@ -4,10 +4,10 @@ Run docker
 
 Inside the docker:    
 
-  cp /p
-  sbt run
+    cp /p
+    sbt run
 
 or
 
-  sbt compile
-  ./target/scala-2.11/p-out
+    sbt compile
+    ./target/scala-2.11/p-out
