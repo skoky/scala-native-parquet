@@ -9,17 +9,28 @@ Prerequisities (Mac OSX):
 	  libyaml \
 	  re2 \
 	  llvm \
-	  sbt
+	  sbt \
+	  boost
 	brew link llvm --force
 
 For other platforms: http://www.scala-native.org/en/latest/user/setup.html
 
     sbt run
-  
-Supporting info:
+
+## Supporting info:
+
+### Specification:
 
 https://parquet.apache.org/documentation/latest/
 
-https://github.com/twitter/scrooge
+### Thrift 2 Scala code generator:
+
+https://github.com/twitter/scrooge (info: unable to publish from source)
+
+### Apache CPP reference implementation:
 
 https://github.com/apache/parquet-cpp
+
+### Vanilla scala JVM implementation reference:
+
+https://github.com/jmd1011/parquet-readers
