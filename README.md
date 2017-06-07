@@ -1,17 +1,13 @@
-Run docker
+Prerequisities (Mac OSx):
 
-    docker run -v $PWD:/p -it scalawilliam/scala-native-sbt
+  brew install llvm bdw-gc re2
+  brew install sbt
 
-Inside the docker:    
+For other platforms: http://www.scala-native.org/en/latest/user/setup.html
 
-    cp /p
-    sbt run
+  sbt run
 
-or
-
-    sbt compile
-    ./target/scala-2.11/p-out
-
+  
 Supporting info:
 
 https://parquet.apache.org/documentation/latest/
