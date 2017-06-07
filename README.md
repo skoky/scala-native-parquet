@@ -1,11 +1,11 @@
 Prerequisities (Mac OSx):
 
-  brew install llvm bdw-gc re2
-  brew install sbt
+    brew install llvm bdw-gc re2
+    brew install sbt
 
 For other platforms: http://www.scala-native.org/en/latest/user/setup.html
 
-  sbt run
+    sbt run
 
   
 Supporting info:
