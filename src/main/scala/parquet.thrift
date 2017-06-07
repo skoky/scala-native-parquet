@@ -17,8 +17,6 @@
  * under the License.
  */
 
-//cpp_include "parquet/util/windows_compatibility.h"
-
 /**
  * File format description for the parquet file format
  */
@@ -352,10 +350,6 @@ struct DataPageHeader {
   5: optional Statistics statistics;
 }
 
-struct IndexPageHeader {
-  /** TODO: **/
-}
-
 struct DictionaryPageHeader {
   /** Number of values in the dictionary **/
   1: required i32 num_values;
@@ -417,10 +411,9 @@ struct PageHeader {
   4: optional i32 crc
 
   // Headers for page specific data.  One only will be set.
-  5: optional DataPageHeader data_page_header;
-  6: optional IndexPageHeader index_page_header;
-  7: optional DictionaryPageHeader dictionary_page_header;
-  8: optional DataPageHeaderV2 data_page_header_v2;
+  5: optional DataPageHeader data_page_header;  
+  6: optional DictionaryPageHeader dictionary_page_header;
+  7: optional DataPageHeaderV2 data_page_header_v2;
 }
 
 /**
