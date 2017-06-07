@@ -21,6 +21,10 @@ For other platforms: http://www.scala-native.org/en/latest/user/setup.html
 
 ### Specification:
 
+https://github.com/apache/parquet-format
+
+### Documentation:
+
 https://parquet.apache.org/documentation/latest/
 
 ### Thrift 2 Scala code generator:
@@ -37,4 +41,4 @@ https://github.com/jmd1011/parquet-readers
 
 ### Vanilla Go implementation of Apache CPP Parquet:
 
-https://github.com/zenixls2/goparquet
+https://github.com/zenixls2/goparquet (invalid, wrong implementation)
